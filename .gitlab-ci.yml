@@ -1,0 +1,16 @@
+image: python:latest
+
+stages:
+- test
+
+1-exec_MT_1:
+  script: python3 test-1-exec_MT_1.py
+
+2-M_ex2:
+  script: python3 test-2-M_ex2.py
+
+3-Misneg:
+  script: python3 test-3-Misneg.py
+
+
+
